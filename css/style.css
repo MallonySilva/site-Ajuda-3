@@ -181,33 +181,81 @@ footer {
 }
 
 .cadastro-page {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: var(--space-4);
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-.cadastro-page form {
-  width: 100%;
-  max-width: 600px;
-  background: var(--surface);
-  padding: var(--space-4);
-  border-radius: var(--radius-md);
-  box-shadow: var(--shadow-md);
-}
-
-.cadastro-page h2,
-.cadastro-page p {
+.cadastro-header {
   text-align: center;
+  margin-bottom: 2rem;
 }
-.cadastro-page .logo {
+
+.cadastro-header .logo {
+  max-width: 150px;
   display: block;
-  margin: 0 auto;
-  width: 160px;
+  margin: 0.5rem auto;
 }
+
+.cadastro-page h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.cadastro-page fieldset {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.cadastro-page legend {
+  font-weight: bold;
+  padding: 0 0.5rem;
+}
+
+.cadastro-page label {
+  display: block;
+  margin-top: 1rem;
+}
+
+.cadastro-page input,
+.cadastro-page select {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-top: 0.3rem;
+}
+
+.cadastro-page button {
+  background-color: #1b8e3e;
+  color: #fff;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.cadastro-page button:hover {
+  background-color: #166c31;
+}
+
 .logo {
   width: 140px;   /* ajuste o valor ideal */
   height: auto;
   display: block;
   margin: 0 auto;
+}
+#form-errors {
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+}
+#form-errors ul {
+  list-style: disc;
+  margin-left: 1rem;
 }

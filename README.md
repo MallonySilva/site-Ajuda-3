@@ -83,7 +83,7 @@ Este projeto segue as recomendações da **WCAG 2.1**, garantindo acesso inclusi
 
 O projeto está disponível publicamente via **GitHub Pages**:
 
-🔗 [https://mallonysilva.github.io/site-ajuda-3/](https://mallonysilva.github.io/site-ajuda-3/)
+🔗 [[https://mallonysilva.github.io/site-Ajuda-3/tree/release/v1.0.0](https://github.com/MallonySilva/site-Ajuda-3/tree/release/v1.0.0)
 
 ---
 
